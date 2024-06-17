@@ -1,0 +1,386 @@
+<!-- Gym Website -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- font awesome icons  -->
+
+    <script src="https://kit.fontawesome.com/e7eaa009e4.js" crossorigin="anonymous"></script>
+
+    <!-- icons  -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    
+    <!-- adding required css files  -->
+    <link rel="stylesheet" href="components/main.css">
+    <link rel="stylesheet" href="components/navbar.css">
+    <link rel="stylesheet" href="index.css">
+
+    <!-- adding required google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Radio+Canada:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- adding required js files  -->
+    <script src="navbar.js"></script>
+
+</head>
+
+<body>
+
+
+    <!-- Navbar -->
+    <div class="navbar | bg-clr-primary" id="navbar">
+        <div class="logo">
+            <img src="gym_images/images/fitness logo.png" alt="logo">
+        </div>
+        <div class="nav-links">
+            <div class="links">
+                <a class="text-clr-primary" href="index.html">Home</a>
+            </div>
+            <div class="links">
+                <a class="text-clr-primary" href="/components/classes.html">Classes</a>
+            </div>
+            <div class="links">
+                <a class="text-clr-primary" href="/components/products.html">Products</a>
+            </div>
+            <div class="links">
+                <a class="text-clr-primary" href="/components/blogs.html">Blogs</a>
+            </div>
+        </div>
+        <div class="btns">
+            <button onclick="showForm()" class="button-nav">Join Us</button>
+        </div>
+        <div class="mobile-icons">
+            <span class="material-symbols-outlined">
+                search
+                </span>
+            <span class="material-symbols-outlined">
+                menu
+                </span>
+        </div>
+
+    </div>
+
+    
+
+<div class="page">
+
+
+
+    <!-- popup form  -->
+
+    <!-- <div id="membershipFormModal" class="modal">
+        <div class="modal-head">
+          <h2>SUBSCRIPTION PLAN</h2>
+        </div>
+        <div class="cross"><span onclick="hideForm()" class="close">&times;</span></div>
+        <div class="modal-content">
+          <form id="membershipForm" action="/submit" method="post">
+            <label class="form-heading" for="fullName">Full Name:</label><br>
+            <input class="textbox" type="text" id="fullName" name="fullName" required><br>
+      
+            <label class="form-heading" for="email">Email:</label><br>
+            <input class="textbox" type="email" id="email" name="email" required><br>
+      
+            <label class="form-heading" for="mobileNumber">Mobile Number:</label><br>
+            <input class="textbox" type="tel" id="mobileNumber" name="mobileNumber" required><br>
+      
+            <label class="form-heading">Duration:</label><br>
+            <input class="duration" type="checkbox" id="monthly" name="duration" value="monthly">
+            <label for="monthly">Monthly</label><br>
+            <input class="duration" type="checkbox" id="yearly" name="duration" value="yearly">
+            <label for="yearly">Yearly</label><br>
+      
+            <label class="form-heading">Mode of Payment:</label><br>
+            <input class="mo-payment" type="checkbox" id="cash" name="paymentMode" value="cash">
+            <label for="cash">Cash</label><br>
+            <input class="mo-payment" type="checkbox" id="online" name="paymentMode" value="online">
+            <label for="online">Online</label><br>
+      
+            <label class="form-heading">Personal Training:</label><br>
+            <input class="ptraining" type="checkbox" id="required" name="personalTraining" value="required">
+            <label for="required">Required</label><br>
+            <input class="ptraining" type="checkbox" id="notRequired" name="personalTraining" value="notRequired">
+            <label for="notRequired">Not Required</label><br>
+      
+            <input class="terms" type="checkbox" id="terms" name="terms" required>
+            <label for="terms">I accept all the terms and conditions</label><br>
+      
+            <button class="btno4" onclick="hideForm()" type="submit">Buy Now</button>
+          </form>
+        </div>
+      </div> -->
+
+
+      
+<!-- 1st Section -->
+
+    <div class="container1">
+            <div class="translucent-bg">            
+                <div class="headings">
+                    <h1 class="text-clr-primary">
+                        Revitalize your body
+                    </h1>
+                    <h4 class="text-clr-primary">
+                        Fall in love with taking care of yourself.
+                    </h4>
+                    <h4 class="text-clr-primary">
+                        Mind. Body. Spirit.
+                    </h4>
+                    <div class="c-btns">
+                    <div>
+                        <button class="button-two">Get Started</button>
+                    </div>
+                    <div>
+                        <button class="button-one">Free Trial &#10145</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+<!-- 2nd page -->
+
+    <div class="bg-clr-tertiary-800 | container2">
+        <div class="sub-container">
+
+            <div class="bg-clr-secondary | social-icons">
+                <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                </div>
+            </div>
+
+            <div class="text">
+                <h1>Fitness Plans and Nutritions</h1>
+            </div>
+
+            <div class="line-box">
+                <div class="box box1">
+                    <img id = "imgs" src="gym_images/images/icons8-barbell-50.png" alt="">
+                    <p id="line-txts"> Weight Loss</p>
+                </div>
+                <div class="box | box2">
+                    <img id = "imgs" src="gym_images/images/icons8-yoga-50.png" alt="">
+                    <p id="line-txts">Classic Yoga</p>
+                </div>
+                <div class="box | box3">
+                    <img id = "imgs" src="gym_images/images/icons8-cycling-50.png" alt="">
+                    <p id="line-txts">Cycling</p>
+                </div>
+                <div class="box | box4">
+                    <img id = "imgs" src="gym_images/images/icons8-biceps-50.png" alt="">
+                    <p id="line-txts">Body Building</p>
+                </div>
+                <div class="box | box5">
+                    <img id = "imgs" src="gym_images/images/icons8-gym-50.png" alt="">
+                    <p id="line-txts">Hyper Trophy</p>
+                </div>
+                <div class="box | box6">
+                    <img id = "imgs" src="gym_images/images/icons8-running-50.png" alt="">
+                    <p id="line-txts">Running</p>
+                </div>
+            </div>
+            
+            
+        </div>
+        
+    </div>
+
+    <!-- 3rd Page -->
+    <div class="container3">
+        <div class="sub-container">
+            <div class="texts">
+
+                Subscription Plans
+            </div>
+    
+            <div class="plans">
+                <div class="box">
+                    <p class="text-clr-tertiary | main-txt">Basic</p>
+                    <p class="text-clr-secondary |sub-txt">for 12 months</p>
+                    <p class="text-clr-tertiary | main-txt">800/month</p>
+                    <p class="text-clr-secondary |sub-txt">for streaming</p>
+                    <button class="button-one |plan-btn">Select Plan</button>
+    
+                </div>
+                <div class="box">
+                    <p class="text-clr-tertiary | main-txt">Intermidiate</p>
+                    <p class="text-clr-secondary |sub-txt">for 12 months</p>
+                    <p class="text-clr-tertiary | main-txt">1000/month</p>
+                    <p class="text-clr-secondary |sub-txt">for streaming</p>
+                    <button class="button-one |plan-btn">Select Plan</button>
+                </div>
+                <div class="box">
+                    <p class="text-clr-tertiary | main-txt"> Advanced</p>
+                    <p class="text-clr-secondary |sub-txt">for 12 months</p>
+                    <p class="text-clr-tertiary | main-txt">1500/month</p>
+                    <p class="text-clr-secondary |sub-txt">for streaming</p>
+                    <button class="button-one |plan-btn">Select Plan</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- 4th Page -->
+
+    <div class="container4">
+        <div class="sub-container">
+            <img src="gym_images/images/gym1.jpg" alt="">
+        </div>
+
+
+
+        <div class="gym-features-main">
+            <div class="gym-features">
+                <div><img src="gym_images/images/gym2.png" alt=""></div>
+                <div class="gym-features-text">
+                    <h1>Good Management</h1>
+                    <p>What hurts today makes you stronger tomorrow</p>
+                </div>
+            </div>
+            <div class="gym-features">
+                <div><img src="gym_images/images/gym3.png" alt=""></div>
+                
+                <div class="gym-features-text">
+                    <h1>Practice Sesions</h1>
+                    <p>Motivation is what gets you started</p>
+                </div>
+            </div>
+            <div class="gym-features">
+                <div><img src="gym_images/images/gym4.png" alt=""></div>
+                
+                <div class="gym-features-text">
+                    <h1>Personal Trainers</h1>
+                    <p>If it doesn't challenge you, it won't change you</p>
+                </div>
+            </div>
+        </div>
+        <div class="bg-clr-tertiary-600 | orange-bg"></div>
+
+    </div>
+
+    <!-- 5th Page -->
+
+    <div class="bg-clr-neutral-900 | container5">
+        <div class="bg-color">
+            <div class="text-clr-tertiary | txt">
+                <h1>Success Stories</h1>
+            </div>
+
+            <div class="text-clr-tertiary | sub-container">
+                <div class="box">
+                    <div>
+                        <img src="gym_images/images/james-barr-jYrFcbztIHA-unsplash.jpg" alt="">
+                    </div>
+                    <div>
+                        <p>Working out regularly i lose some of my extra pounds which helped in my modelling career.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div>
+                        <img src="gym_images/images/bruce-mars-HHXdPG_eTIQ-unsplash.jpg" alt="">
+                    </div>
+                    <div><p>Yoga and pilates helped me get back in shape and raised my confidence.</p></div>
+                </div>
+                <div class="box-hidden-mobile | box">
+                    <div>
+                        <img src="gym_images/images/mark-adriane-xQghSLXYD3M-unsplash.jpg" alt="">
+                    </div>
+                    <div><p>Personal Training diet plan helped me in increasing strength and endurance.</p></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="text-clr-primary bg-clr-primary | main">
+            <div class="box0">
+                <div class="logo">
+                    <img src="gym_images/images/fitness logo.png" alt="">
+                </div>
+                <div class="text-clr-tertiary | sub-txt">
+                    <p>Prioritize Your fitness Goals with our world class services</p>
+                </div>
+            </div>
+            <div class="box1">
+                <div class="main-txt1">
+                    <div class="heading">
+                        <h4>Company</h4>
+                    </div>
+                    <div class="sub-heading">
+                        <p>About</p>
+                        <p>Careers</p>
+                        <p>Blogs</p>
+                        <p>Terms & Conditions</p>
+                    </div>
+                </div>
+
+                <div class="main-txt1">
+                    <div class="heading">
+                        <h4>Contact</h4>
+                    </div>
+                    <div class="sub-heading">
+                        <p>Help & FAQs</p>
+                        <p>Press</p>
+                        <p>Mobile</p>
+                    </div> 
+                </div>
+
+                <div class="main-txt1">
+                    <div class="heading">
+                        <h4>More</h4>
+                    </div>
+                    <div class="sub-heading">
+                        <p>Program</p>
+                        <p>Plans</p>
+                        <p>Method</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="box2">
+                <div class="text-clr-tertiary | main-txt2">
+                    <h3>Popular Tags</h3>
+                </div>
+
+                <div class="btns-footer">
+                    <div class="g-btn"><button class="footer-button-one">ABS</button></div>
+                    <div class="g-btn"><button class="footer-button-one">Workout</button></div>
+                    <div class="o-btn"><button class="footer-button-two">Nutrition</button></div>
+                    <div class="g-btn"><button class="footer-button-one">Boxing</button></div>
+                    <div class="o-btn"><button class="footer-button-two">Trainers</button></div>
+                    <div class="o-btn"><button class="footer-button-two">Facilities</button></div>
+                </div>
+            </div>
+            <div class="box3">
+                <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                </div>
+            </div>
+        </div>
+        <div class="bg-clr-secondary | last">
+            <p>CopyRights All Rights Reserved</p>
+        </div>
+    </div>
+
+
+        
+</div>
+</body>
+
+
+
+
+</html>
